@@ -11,9 +11,12 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
+        .backgroundColor(.blue)
             Text("REMINDERS:")
+            .foregroundColor(.white)
             List {
                 Text("Complete your math homework." )
+                Text("Sign permission form.")
                 
             }
         }
